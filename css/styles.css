@@ -88,7 +88,7 @@ table{border-collapse:collapse;width:100%;}
 .logo-icon{height:clamp(40px,7vw,58px);width:auto;max-width:100%;display:block;flex-shrink:0;}
 .logo-icon-footer{filter:brightness(0) invert(1);}
 .logo-text{display:flex;flex-direction:column;line-height:1.15;white-space:nowrap;}
-.logo-mark{font-size:1.05rem;font-weight:800;letter-spacing:.3px;color:var(--navy-900);}
+.logo-mark{font-size:.92rem;font-weight:800;letter-spacing:.1px;color:var(--navy-900);}
 .logo-sub{font-size:.62rem;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:var(--gray-500);}
 .logo-mark-footer{color:var(--white);}
 .logo-sub-footer{color:#8b9ab8;white-space:normal;}
@@ -649,7 +649,7 @@ table{border-collapse:collapse;width:100%;}
   .header-inner{gap:.5rem;}
   .header-actions{gap:.6rem;}
   .logo-sub{display:none;}
-  .logo-mark{font-size:.95rem;}
+  .logo-mark{font-size:.78rem;}
   .logo-icon{height:34px;}
 }
 
