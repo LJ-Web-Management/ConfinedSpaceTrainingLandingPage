@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"/Users/hp/Documents/Claude Code/Hazwoper Osha Training\" -maxdepth 2 -type d | sort)"
+    ]
+  }
+}

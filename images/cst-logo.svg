@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 640" width="600" height="640">
+
+  <!-- Base flowing mass (rising hazard vapor / rescue tripod cable), connects up into the ring -->
+  <path fill="#0b1f3a" d="
+    M 40 400
+    C 60 340 140 300 210 330
+    C 250 347 240 385 270 400
+    C 300 414 300 370 330 360
+    C 380 344 400 300 460 320
+    C 540 346 566 430 552 500
+    C 536 578 470 630 300 636
+    C 130 630 58 578 46 500
+    C 40 466 36 432 40 400 Z"/>
+
+  <!-- Hazard-stripe ring around the shaft opening -->
+  <path d="M 300.0 42.0 L 300.0 0.0 A 210 210 0 0 1 359.2 8.5 L 347.3 48.8 A 168 168 0 0 0 300.0 42.0 Z" fill="#0b1f3a"/>
+  <path d="M 390.8 68.7 L 413.5 33.3 A 210 210 0 0 1 458.7 72.5 L 427.0 100.0 A 168 168 0 0 0 390.8 68.7 Z" fill="#0b1f3a"/>
+  <path d="M 452.8 140.2 L 491.0 122.8 A 210 210 0 0 1 507.9 180.1 L 466.3 186.1 A 168 168 0 0 0 452.8 140.2 Z" fill="#0b1f3a"/>
+  <path d="M 466.3 233.9 L 507.9 239.9 A 210 210 0 0 1 491.0 297.2 L 452.8 279.8 A 168 168 0 0 0 466.3 233.9 Z" fill="#0b1f3a"/>
+  <path d="M 427.0 320.0 L 458.7 347.5 A 210 210 0 0 1 413.5 386.7 L 390.8 351.3 A 168 168 0 0 0 427.0 320.0 Z" fill="#0b1f3a"/>
+  <path d="M 347.3 371.2 L 359.2 411.5 A 210 210 0 0 1 300.0 420.0 L 300.0 378.0 A 168 168 0 0 0 347.3 371.2 Z" fill="#0b1f3a"/>
+  <path d="M 252.7 371.2 L 240.8 411.5 A 210 210 0 0 1 186.5 386.7 L 209.2 351.3 A 168 168 0 0 0 252.7 371.2 Z" fill="#0b1f3a"/>
+  <path d="M 173.0 320.0 L 141.3 347.5 A 210 210 0 0 1 109.0 297.2 L 147.2 279.8 A 168 168 0 0 0 173.0 320.0 Z" fill="#0b1f3a"/>
+  <path d="M 133.7 233.9 L 92.1 239.9 A 210 210 0 0 1 92.1 180.1 L 133.7 186.1 A 168 168 0 0 0 133.7 233.9 Z" fill="#0b1f3a"/>
+  <path d="M 147.2 140.2 L 109.0 122.8 A 210 210 0 0 1 141.3 72.5 L 173.0 100.0 A 168 168 0 0 0 147.2 140.2 Z" fill="#0b1f3a"/>
+  <path d="M 209.2 68.7 L 186.5 33.3 A 210 210 0 0 1 240.8 8.5 L 252.7 48.8 A 168 168 0 0 0 209.2 68.7 Z" fill="#0b1f3a"/>
+
+  <!-- Solid shaft void (the confined space opening) -->
+  <circle cx="300" cy="210" r="168" fill="#0b1f3a"/>
+
+  <!-- Ladder rails + rungs, receding into the shaft (perspective) -->
+  <g stroke="#f2a900" stroke-linecap="round" fill="none">
+    <path d="M 244 96 L 282 372" stroke-width="16"/>
+    <path d="M 356 96 L 318 372" stroke-width="16"/>
+    <path d="M 252 132 L 348 132" stroke-width="14"/>
+    <path d="M 259 172 L 341 172" stroke-width="13"/>
+    <path d="M 266 210 L 334 210" stroke-width="12"/>
+    <path d="M 273 246 L 327 246" stroke-width="11"/>
+    <path d="M 279 280 L 321 280" stroke-width="10"/>
+    <path d="M 285 310 L 315 310" stroke-width="9"/>
+    <path d="M 290 336 L 310 336" stroke-width="8"/>
+  </g>
+
+  <!-- Winding highlight streaks through the lower vapor/cable mass -->
+  <g stroke="#f2a900" stroke-linecap="round" fill="none">
+    <path d="M 90 430 C 150 450 170 490 230 495 C 290 500 300 470 340 478 C 400 488 420 520 490 505" stroke-width="10"/>
+    <path d="M 110 480 C 160 500 190 530 250 528 C 310 526 320 555 380 552 C 430 550 450 530 480 545" stroke-width="8"/>
+    <path d="M 140 560 C 190 575 230 585 290 583 C 350 581 380 600 430 592" stroke-width="7"/>
+  </g>
+</svg>
